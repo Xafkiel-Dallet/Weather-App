@@ -26,7 +26,8 @@ img.img
 
 1. Clone this repository:
    
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+   git clone
+https://github.com/Xafkiel-Dallet/Weather-App.git
 
 2. Open the project folder.
 
