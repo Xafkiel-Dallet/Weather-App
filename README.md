@@ -43,7 +43,6 @@ Weather-App/
 
 🎯 Future Improvements
 
-- 5-day weather forecast
 - Current location weather
 - Dark/Light mode
 - Weather icons and animations
