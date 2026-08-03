@@ -49,6 +49,19 @@ search
     fadeElements.forEach(el => observer.observe(el));
   </script>
   
+  <!--Restores scroll page cache-->
+  <script>
+  window.addEventListener("load", () => {
+    window.scrollTo(0, 0);
+  
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+  });
+</script>
+  
+  
+  
   <script src="script.js"></script>
   
 </body>
