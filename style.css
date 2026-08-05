@@ -45,6 +45,13 @@ body:before {
     padding:20px;
 }
 
+.input-container{
+  position: relative;
+  
+}
+
+
+
 
 .input-city{
   width: 100%;
@@ -57,10 +64,23 @@ body:before {
   transition: 0.25s border;
 }
 
+.input-city::focus{
+  border: 3px solid rgb(0,0,0,0.15);
+}
+
 .input-city::placeholder{
   color: rgb(255,255,255,0.7);
 }
 
+.s-button{
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+display: flex;
+  border: none;
+}
 
 
 
