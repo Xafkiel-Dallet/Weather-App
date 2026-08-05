@@ -47,7 +47,7 @@ body:before {
 
 .input-container{
   position: relative;
-  
+  margin-bottom: 25px;
 }
 
 
@@ -84,9 +84,19 @@ display: flex;
   cursor: pointer;
 }
 
+.weather-info{
+  border: solid;
+}
 
+.location-date{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-
+.location{
+  
+}
 
 
 .fade-in {
