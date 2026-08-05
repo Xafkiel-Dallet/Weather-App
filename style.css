@@ -62,6 +62,7 @@ body:before {
   outline: none;
   font-weight: 500;
   transition: 0.25s border;
+  padding-right: 45px;
 }
 
 .input-city::focus{
@@ -80,6 +81,7 @@ body:before {
   background: none;
 display: flex;
   border: none;
+  cursor: pointer;
 }
 
 
