@@ -96,6 +96,14 @@ display: flex;
   gap: 6px;
 }
 
+.weathersum-container{
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+}
+
+
+
 .location-date{
   display: flex;
   justify-content: space-between;
