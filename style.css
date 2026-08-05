@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   color:white;
+  font-weight: 600;
 }
 
 body {
@@ -31,6 +32,10 @@ body:before {
   background: rgba(0,0,0,0.15);
   z-index: -1;
   backdrop-filter: blur(10px);
+}
+
+.regular-txt{
+  font-weight: 600;
 }
 
 .main-container{
@@ -85,7 +90,7 @@ display: flex;
 }
 
 .weather-info{
-  border: solid;
+  
 }
 
 .location-date{
@@ -95,7 +100,9 @@ display: flex;
 }
 
 .location{
-  
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 
