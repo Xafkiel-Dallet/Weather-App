@@ -115,7 +115,7 @@ display: flex;
 
 
 .weather-conditions{
-  
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -134,8 +134,11 @@ display: flex;
 
 
 .forecast-container{
+  
   display: flex;
   gap: 15px;
+  overflow: scroll;
+  padding-bottom: 12px;
 }
 
 .forecast-items{
@@ -146,7 +149,7 @@ display: flex;
   gap: 6px;
   padding: 10px;
   align-items: center;
-  
+  border-radius: 5px;
 }
 
 .forecast-item-img{
