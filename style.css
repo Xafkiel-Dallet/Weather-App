@@ -120,7 +120,17 @@ display: flex;
   justify-content: space-between;
 }
 
+.conditions-container{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  
+}
 
+
+.conditions-container span{
+  font-size: 30px;
+}
 
 
 
