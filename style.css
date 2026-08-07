@@ -114,6 +114,12 @@ display: flex;
 }
 
 
+.weather-conditions{
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 
