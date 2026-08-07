@@ -103,11 +103,19 @@ display: flex;
 }
 
 .weathersum-img{
-  border: solid;
   width: 120px;
   height: 120px;
   
 }
+
+
+.weathersum-info{
+  text-align: end;
+}
+
+
+
+
 
 
 .location-date{
