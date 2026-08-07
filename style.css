@@ -136,7 +136,8 @@ display: flex;
 .forecast-container{
   display: flex;
   gap: 15px;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
   padding-bottom: 12px;
 }
 
