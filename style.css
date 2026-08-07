@@ -134,11 +134,19 @@ display: flex;
 
 
 .forecast-container{
-  
   display: flex;
   gap: 15px;
   overflow: scroll;
   padding-bottom: 12px;
+}
+
+.forecast-container::-webkit-scrollbar{
+  height: 8px;
+}
+
+.forecast-container::-webkit-scrollbar-track{
+  background: rgb(0,0,0,0.1);
+  border-radius: 99px;
 }
 
 .forecast-items{
