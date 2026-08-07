@@ -149,6 +149,11 @@ display: flex;
   border-radius: 99px;
 }
 
+.forecast-container::-webkit-scrollbar-thumb{
+  background: rgb(0,0,0,0.15);
+  border-radius: 99px;
+}
+
 .forecast-items{
   display: flex;
   min-width: 70px;
@@ -158,6 +163,12 @@ display: flex;
   padding: 10px;
   align-items: center;
   border-radius: 5px;
+  transition: 0.3s background;
+  
+}
+
+.forecast-items::hover{
+  background: rgb(255,255,255,0.1);
 }
 
 .forecast-item-img{
