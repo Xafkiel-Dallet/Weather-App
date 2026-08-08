@@ -3,6 +3,7 @@ const searchBtn=document.querySelector('.s-button');
 
 searchBtn.addEventListener('click', () => {
   if(inputCity.value.trim()!= ' ' ){
+    updateWeatherInfo()
       console.log(inputCity.value)
       inputCity.value=''
       inputCity.blur()
@@ -10,5 +11,17 @@ searchBtn.addEventListener('click', () => {
 });
 
 inputCity.addEventListener('keydown', (event)=>{
-  console.log(event)
+  if(event.key == 'Enter' && inputCity.value.trim()!=''
+){
+  updateWeatherInfo()
+  console.log(inputCity.value)
+  inputCity.value=''
+  inputCity.blur()
+
+}
+
 });
+
+function updateWeatherInfo() {
+  
+}
